@@ -1,14 +1,25 @@
 
 .primary{
- background-image:url("../../assets/img/frame41.jpg");
+ background-image:url("../../assets/img/spacex.png");
  background-repeat:no-repeat;
- background-size:100%;
- text-align:center;
+ background-size:cover;
+ background-position:center center;
+ padding:8%;
+text-align:center;
+ vertical-align:text-bottom;
 }
+
 .primary a:link, .primary a:visited{
     color:white;
+    padding:2px 50px;
+    background:none;
+    font-size:150%;
     text-decoration:none;
+    position:relative;
+    top:50px;
 }
+    
+
 .primary img{
      display: block;
   margin-left: auto;
@@ -79,4 +90,12 @@ h2{
 }
 h6{
 text-align:center;
+}
+
+@media(max-width : 320px) {
+   background-img{
+     width: auto;
+     height: auto;
+   }
+
 }

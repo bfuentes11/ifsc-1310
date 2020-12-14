@@ -1,0 +1,20 @@
+.primary{
+background-image:url("../../assets01/img/ezgif.com-optimize.gif");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center center;
+}
+h1{
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+ul{
+    text-align:justify;
+    list-style-type:none;
+}
+a:link a:visited{
+    text-decoration:none;
+    background:none;
+}
